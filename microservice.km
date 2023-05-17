@@ -1,0 +1,204 @@
+{
+    "root": {
+        "data": {
+            "id": "csoctmy2ql40",
+            "created": 1684306497218,
+            "text": "Microservice",
+            "progress": 6
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "csoctt9bc3k0",
+                    "created": 1684306510958,
+                    "text": "A collection\nof services",
+                    "layout_mind_offset": {
+                        "x": -123,
+                        "y": -69
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csod3asip8o0",
+                            "created": 1684307254402,
+                            "text": "communicate using APIs"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csod3m2dnwo0",
+                            "created": 1684307278943,
+                            "text": "Owers are small teams"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csod3y5efew0",
+                    "created": 1684307305247,
+                    "text": "Why",
+                    "priority": 1
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csod6g4v5zc0",
+                            "created": 1684307501125,
+                            "text": "updated, deployed, and\nscaled easily"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csod8ssfq1s0",
+                            "created": 1684307685400,
+                            "text": "easily duplicate from one\nto another, since they share\nsimilar process"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csod447ggdk0",
+                    "created": 1684307318432,
+                    "text": "How it works\nwith containers?",
+                    "priority": 2,
+                    "layout_mind_offset": {
+                        "x": -147,
+                        "y": 30
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csodcknfogg0",
+                            "created": 1684307981140,
+                            "text": "Hardware performance is better"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csoddbakfu80",
+                            "created": 1684308039135,
+                            "text": "setup a base for native app dev\non cloud"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csoddw519s00",
+                            "created": 1684308084513,
+                            "text": "make copies of the infrastructure easily,\nso easily to automate, make change later"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csod49u58hk0",
+                    "created": 1684307330688,
+                    "text": "Benefit",
+                    "priority": 3,
+                    "layout_mind_offset": {
+                        "x": 51,
+                        "y": -90
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csodf5h7c5k0",
+                            "created": 1684308183204,
+                            "text": "Small size, \neasy to maintain",
+                            "layout_left_offset": {
+                                "x": -56,
+                                "y": -61
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodgbjlw0g0",
+                            "created": 1684308274774,
+                            "text": "more focused \none each feature"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodgu2pazc0",
+                            "created": 1684308315111,
+                            "text": "more loosely coupled,\nreduce maintainance cost"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodhp8phvs0",
+                            "created": 1684308382954,
+                            "text": "if one unit fails,\nit doesn't affect others\nmuch"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodiebprhs0",
+                            "created": 1684308437556,
+                            "text": "Easily deploy"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csod4b7w7hc0",
+                    "created": 1684307333696,
+                    "text": "Challenges",
+                    "priority": 4,
+                    "layout_mind_offset": {
+                        "x": 28,
+                        "y": 102
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csodijn15u00",
+                            "created": 1684308449124,
+                            "text": "need skilled pro\nto develop"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodj4rtnk80",
+                            "created": 1684308495126,
+                            "text": "costly to maintain\ndefferent server"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csodjswx21s0",
+                            "created": 1684308547677,
+                            "text": "more difficult\nto make the app ready"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
