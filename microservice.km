@@ -165,8 +165,8 @@
                     "text": "Challenges",
                     "priority": 4,
                     "layout_mind_offset": {
-                        "x": 28,
-                        "y": 102
+                        "x": 16,
+                        "y": 27
                     }
                 },
                 "children": [
@@ -190,7 +190,11 @@
                         "data": {
                             "id": "csodjswx21s0",
                             "created": 1684308547677,
-                            "text": "more difficult\nto make the app ready"
+                            "text": "more difficult\nto make the app ready",
+                            "layout_left_offset": {
+                                "x": -6,
+                                "y": -5.99999974668026
+                            }
                         },
                         "children": []
                     }

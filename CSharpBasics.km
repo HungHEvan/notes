@@ -1,0 +1,224 @@
+{
+    "root": {
+        "data": {
+            "id": "cssq4pa5bhc0",
+            "created": 1684750278563,
+            "text": "C#\nFundamentals"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cssq4zso6m00",
+                    "created": 1684750301450,
+                    "text": "Syntax",
+                    "layout_mind_offset": {
+                        "x": -56,
+                        "y": -5
+                    },
+                    "priority": 1
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cssqoudbd9s0",
+                            "created": 1684751856921,
+                            "text": "Var keyword"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssqoxqr74w0",
+                                    "created": 1684751864264,
+                                    "text": "Using when:\n- type is evident\n- creating an anonymous types\n- shorten the varialble type to make\nit more concise"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cssr6sjqkf40",
+                            "created": 1684753263511,
+                            "text": "String",
+                            "layout_right_offset": {
+                                "x": 7,
+                                "y": 15
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssr6vemv2g0",
+                                    "created": 1684753269733,
+                                    "text": "immutable"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cssr6x6mi7s0",
+                                    "created": 1684753273602,
+                                    "text": "stringbuilder:\n- allow to modify string\n- improve performance\n-StringBuilder sb = new StringBuilder();\nsb.Append(\"Hello\");\nsb.Append(\" World\");\nsb.Append(\"!\");\n\nstring result = sb.ToString();"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cssqwf6p8yo0",
+                    "created": 1684752450783,
+                    "text": "OOP",
+                    "layout_mind_offset": {
+                        "x": -156,
+                        "y": 70
+                    },
+                    "priority": 2
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cssqwiycmfk0",
+                            "created": 1684752458985,
+                            "text": "Abstraction"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssrci2refc0",
+                                    "created": 1684753710903,
+                                    "text": "A process of simplifying complex\ncodes by breaking them down to smaller parts.\n\nFor example: abstract class, interfaces, base classes, \nor common methods",
+                                    "layout_right_offset": {
+                                        "x": 23.000003322958946,
+                                        "y": -12
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cssrf7x7a4g0",
+                            "created": 1684753923890,
+                            "text": "Encapsulation"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssrfdq6ad40",
+                                    "created": 1684753936526,
+                                    "text": "Group all related data together in a class to:\n- control access for example using \npublic, private, and protected keyword"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cssrh1qghcw0",
+                            "created": 1684754067150,
+                            "text": "Polymorphism"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssrh7qszf40",
+                                    "created": 1684754080232,
+                                    "text": "Allow class has diffirent form using inheritance\nand method overriding. \n\nSuch as using a base class for other class which\nhas the same members",
+                                    "layout_right_offset": {
+                                        "x": 10,
+                                        "y": 45
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cssr6q7j4g80",
+                    "created": 1684753258419,
+                    "text": "Data types",
+                    "layout_mind_offset": {
+                        "x": 50.00000074505806,
+                        "y": -8
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csst2g0yo1c0",
+                            "created": 1684758565018,
+                            "text": "Dictionary"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "csst6h09afs0",
+                                    "created": 1684758880608,
+                                    "text": "- A collection of key-value pairs\n- provide fast access based on keys\nex. \n- value can be duplicated\n\n\t    Dictionary<string, int> ages = new Dictionary<string, int>();\n\n\t    ages.Add(\"John\", 25);        int johnAge = ages[\"John\"];",
+                                    "layout_left_offset": {
+                                        "x": 24.99999764561653,
+                                        "y": -119
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "csstc30ev8w0",
+                            "created": 1684759320328,
+                            "text": "Hashset",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "csstc69qt4o0",
+                                    "created": 1684759327423,
+                                    "text": "- Used to store unique data like tags, emails, membership\n- Provide fast checking\n- Do not allow duplicates (key and value)\n- Do not allow access by keys\n\n\t    HashSet<string> names = new HashSet<string>();\n\n\t    // Add elements to the HashSet\n\t    names.Add(\"John\");\n\t    names.Add(\"Alice\");\n\t    names.Add(\"Bob\");\n\t    names.Add(\"Alice\"); // Duplicate, will be ignored\n\t    Console.WriteLine(names.Contains(\"John\")); // Output: True\n\t    Console.WriteLine(names.Contains(\"Mary\")); // Output: False",
+                                    "layout_left_offset": {
+                                        "x": -41,
+                                        "y": -73
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cssto57hnyo0",
+                            "created": 1684760265479,
+                            "text": "Queue"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cssto897s2g0",
+                                    "created": 1684760272114,
+                                    "text": "- Used to store data which is important\nto know the order\n- Main purpose is to enqueueing and dequeueing \ninstead of retrieving elements by their positions\n\n\t    Queue<string> namesQueue = new Queue<string>();\n\n\t    namesQueue.Enqueue(\"John\");\n\t    namesQueue.Enqueue(\"Alice\");\n\t    namesQueue.Enqueue(\"Bob\");\n\n\t    string firstPerson = namesQueue.Peek();\n\t    Console.WriteLine(\"First person in the queue: \" + firstPerson);\n\n\t    string servedPerson = namesQueue.Dequeue();",
+                                    "layout_left_offset": {
+                                        "x": -37,
+                                        "y": -44
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
