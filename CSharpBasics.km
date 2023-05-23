@@ -41,8 +41,8 @@
                             "created": 1684753263511,
                             "text": "String",
                             "layout_right_offset": {
-                                "x": 7,
-                                "y": 15
+                                "x": 19,
+                                "y": 3
                             }
                         },
                         "children": [
@@ -61,8 +61,53 @@
                                     "text": "stringbuilder:\n- allow to modify string\n- improve performance\n-StringBuilder sb = new StringBuilder();\nsb.Append(\"Hello\");\nsb.Append(\" World\");\nsb.Append(\"!\");\n\nstring result = sb.ToString();"
                                 },
                                 "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cstgmprnc0w0",
+                                    "created": 1684825039033,
+                                    "text": "string.Format(\"hello {0}, you are {1} years\", employee, age);\n\n0 is employee variable\n1 is age variable"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cstgsnq3dwg0",
+                                    "created": 1684825504771,
+                                    "text": "Escape Characters"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "csth2utf9u00",
+                                            "created": 1684826303851,
+                                            "text": "\\u: turn hexadecimal numberinto letter"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            },
+                            {
+                                "data": {
+                                    "id": "cstjl3jyajk0",
+                                    "created": 1684833375644,
+                                    "text": "Stringbulder: modify string without creating a new variable"
+                                },
+                                "children": []
                             }
                         ]
+                    },
+                    {
+                        "data": {
+                            "id": "cssui5s75lk0",
+                            "created": 1684762617656,
+                            "text": "const keyword:\n- value with cosnt cannot be changed\n\nconst double interestRate = 0.07;",
+                            "layout_right_offset": {
+                                "x": 58,
+                                "y": 31
+                            }
+                        },
+                        "children": []
                     }
                 ]
             },
@@ -72,8 +117,8 @@
                     "created": 1684752450783,
                     "text": "OOP",
                     "layout_mind_offset": {
-                        "x": -156,
-                        "y": 70
+                        "x": -65,
+                        "y": 62
                     },
                     "priority": 2
                 },
@@ -129,8 +174,8 @@
                                     "created": 1684754080232,
                                     "text": "Allow class has diffirent form using inheritance\nand method overriding. \n\nSuch as using a base class for other class which\nhas the same members",
                                     "layout_right_offset": {
-                                        "x": 10,
-                                        "y": 45
+                                        "x": 14,
+                                        "y": 26
                                     }
                                 },
                                 "children": []
@@ -145,9 +190,10 @@
                     "created": 1684753258419,
                     "text": "Data types",
                     "layout_mind_offset": {
-                        "x": 50.00000074505806,
-                        "y": -8
-                    }
+                        "x": -181.99999925494194,
+                        "y": 72
+                    },
+                    "priority": 3
                 },
                 "children": [
                     {
@@ -213,6 +259,155 @@
                                 "children": []
                             }
                         ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cstfev2he4w0",
+                    "created": 1684821602549,
+                    "text": "Methods",
+                    "priority": 4,
+                    "layout_mind_offset": {
+                        "x": 54,
+                        "y": -31
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cstfs62syw00",
+                            "created": 1684822645247,
+                            "text": "Refactoring",
+                            "priority": 1
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cstfs95dx5k0",
+                                    "created": 1684822651934,
+                                    "text": "Helper file",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cstft0pamnc0",
+                                            "created": 1684822711911,
+                                            "text": "Utilities file"
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cstfzido38g0",
+                            "created": 1684823220575,
+                            "text": "Opitonal parameter",
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cstfzlwacvk0",
+                                    "created": 1684823228231,
+                                    "text": "When method is called,\nit's optional to include the parameter\n\n- ex. public int AddNumbers (int a,\nint b, int c = 100)\n{}",
+                                    "layout_left_offset": {
+                                        "x": -25,
+                                        "y": -8
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cstg4tdtetk0",
+                                    "created": 1684823636349,
+                                    "text": "placed at the end of all parameters"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cstg7pf8x1s0",
+                            "created": 1684823862821,
+                            "text": "Expression-bodied syntax",
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cstg7uqzm880",
+                                    "created": 1684823874415,
+                                    "text": "For simple, one-line expression\n\nex. \n\tpublic int Square() => number * number;",
+                                    "layout_left_offset": {
+                                        "x": 15,
+                                        "y": 7
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cstheljcww80",
+                    "created": 1684827224022,
+                    "text": "Shortcuts",
+                    "priority": 5
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csther3vmls0",
+                            "created": 1684827236146,
+                            "text": "Ctrl + shift + b: build"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csthk11r55s0",
+                    "created": 1684827649606,
+                    "text": "Value- Reference Type",
+                    "layout_mind_offset": {
+                        "x": 18,
+                        "y": 40
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csti1c8up680",
+                            "created": 1684829006171,
+                            "text": "ref keyword: \n- allow to modify the value of variable \nwithout creating a new variable\nin the memory\n- has to provide the value initially",
+                            "layout_left_offset": {
+                                "x": -11,
+                                "y": -26
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csti1tcoy8o0",
+                            "created": 1684829043409,
+                            "text": "Out keyword:\n\n- Modify the original variable without \ncreating a new one\n- without having to provide a value initially",
+                            "layout_left_offset": {
+                                "x": -1,
+                                "y": -12
+                            }
+                        },
+                        "children": []
                     }
                 ]
             }
