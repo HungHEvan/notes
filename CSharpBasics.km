@@ -172,11 +172,15 @@
                                 "data": {
                                     "id": "cssrh7qszf40",
                                     "created": 1684754080232,
-                                    "text": "Allow class has diffirent form using inheritance\nand method overriding. \n\nSuch as using a base class for other class which\nhas the same members",
-                                    "layout_right_offset": {
-                                        "x": 14,
-                                        "y": 26
-                                    }
+                                    "text": "Allow class has diffirent form using inheritance\nand method overriding. \n\nSuch as using a base class for other class which\nhas the same members"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "csuhk9z5x4w0",
+                                    "created": 1684929228998,
+                                    "text": "can achieve by applying interface's method and\nmodify it"
                                 },
                                 "children": []
                             }
@@ -405,6 +409,59 @@
                             "layout_left_offset": {
                                 "x": -1,
                                 "y": -12
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csubzxb9f3s0",
+                    "created": 1684913528598,
+                    "text": "New stuff",
+                    "layout_mind_offset": {
+                        "x": 59,
+                        "y": 45
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csuc02kr7340",
+                            "created": 1684913540056,
+                            "text": "spead operator for \nproperty validation"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csuc0domzio0",
+                            "created": 1684913564235,
+                            "text": "Using partial in class/interface/struct\nto split big class\ninto smaller pieces",
+                            "layout_left_offset": {
+                                "x": -19,
+                                "y": 3
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csugkbanwo80",
+                            "created": 1684926410760,
+                            "text": "is keyword to compare two object"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csugv7gfgjs0",
+                            "created": 1684927264407,
+                            "text": "extension method:\n\npublic static class ProductExtensions\n{\npublic static double RemoveProduct(this Product product)\n{}\n}\n- Product p1 = new Product()\np1.RemoveProduct();",
+                            "layout_left_offset": {
+                                "x": -9,
+                                "y": 1
                             }
                         },
                         "children": []
