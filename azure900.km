@@ -3,7 +3,8 @@
         "data": {
             "id": "cvcmpghav4w0",
             "created": 1694084136625,
-            "text": "Azure-900"
+            "text": "Azure-900",
+            "progress": null
         },
         "children": [
             {
@@ -14,7 +15,8 @@
                     "layout_mind_offset": {
                         "x": -51,
                         "y": 0
-                    }
+                    },
+                    "priority": null
                 },
                 "children": [
                     {
@@ -22,7 +24,8 @@
                             "id": "cvcnfezerq80",
                             "created": 1694086170836,
                             "text": "Cloud Computing",
-                            "expandState": "expand"
+                            "expandState": "expand",
+                            "priority": 1
                         },
                         "children": [
                             {
@@ -59,7 +62,8 @@
                             "layout_right_offset": {
                                 "x": 3,
                                 "y": -14
-                            }
+                            },
+                            "priority": 2
                         },
                         "children": [
                             {
@@ -100,7 +104,8 @@
                         "data": {
                             "id": "cvcngfkjl5s0",
                             "created": 1694086250477,
-                            "text": "Deployment model"
+                            "text": "Deployment model",
+                            "priority": 3
                         },
                         "children": [
                             {
@@ -133,9 +138,10 @@
                             "created": 1694087471597,
                             "text": "Capex:\n- Server, storage, network, backup, disaster recovery, datacenter cost, personel\nOpex:\n- leasing software vs customizng features, training employees, cloud support, billing",
                             "layout_right_offset": {
-                                "x": -5,
-                                "y": -4
-                            }
+                                "x": 1,
+                                "y": -20
+                            },
+                            "priority": 4
                         },
                         "children": []
                     },
@@ -143,7 +149,12 @@
                         "data": {
                             "id": "cvcoglp5d340",
                             "created": 1694089084926,
-                            "text": "High Availability:\n- Load balancer: Distribute traffic to multiple servers\nHigh Scalability\nHigh Elasticity\n- Automatically scale"
+                            "text": "High Availability:\n- Load balancer: Distribute traffic to multiple servers\nHigh Scalability\nHigh Elasticity\n- Automatically scale",
+                            "layout_right_offset": {
+                                "x": 4,
+                                "y": -29
+                            },
+                            "priority": 5
                         },
                         "children": []
                     }
@@ -153,14 +164,20 @@
                 "data": {
                     "id": "cvcnfc32wbk0",
                     "created": 1694086164527,
-                    "text": "Evolution of compute"
+                    "text": "Evolution of compute",
+                    "layout_mind_offset": {
+                        "x": -50.999999552965164,
+                        "y": -36
+                    },
+                    "priority": null
                 },
                 "children": [
                     {
                         "data": {
                             "id": "cvcp841eqkw0",
                             "created": 1694091240682,
-                            "text": "Dedicated Services"
+                            "text": "Dedicated Services",
+                            "priority": 1
                         },
                         "children": [
                             {
@@ -177,14 +194,59 @@
                         "data": {
                             "id": "cvcp9s7z6ls0",
                             "created": 1694091371686,
-                            "text": "VMs"
+                            "text": "VMs",
+                            "priority": 2
                         },
                         "children": [
                             {
                                 "data": {
                                     "id": "cvcp9xurcwg0",
                                     "created": 1694091383948,
-                                    "text": "topic"
+                                    "text": "- multiple virtual machines\n- can overpay for fraction of the server\n- limited by guess OS\n- may conflict by multiple apps"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdgz3cnygg0",
+                            "created": 1694169524986,
+                            "text": "Containers",
+                            "layout_right_offset": {
+                                "x": -2,
+                                "y": 11
+                            },
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdgz72bgo00",
+                                    "created": 1694169533067,
+                                    "text": "maximun utilizing available capacity"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdh276jpbs0",
+                            "created": 1694169768415,
+                            "text": "Functions",
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdh29t07qw0",
+                                    "created": 1694169774127,
+                                    "text": "- Managed VM running managed containers\n- responsible for code and data\n- cost effective",
+                                    "layout_right_offset": {
+                                        "x": 0,
+                                        "y": 23
+                                    }
                                 },
                                 "children": []
                             }
@@ -196,9 +258,211 @@
                 "data": {
                     "id": "cvcmrf0w3200",
                     "created": 1694084290185,
-                    "text": "topic"
+                    "text": "Global Infrastructure",
+                    "layout_mind_offset": {
+                        "x": 144,
+                        "y": 549
+                    },
+                    "priority": null
                 },
-                "children": []
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvdhgntnt140",
+                            "created": 1694170901740,
+                            "text": "Regions:\n- a group of datacenters\n\nGeography:\n- market of two or more regions\nex. USA, Canada, ..",
+                            "layout_left_offset": {
+                                "x": -78,
+                                "y": -48
+                            },
+                            "priority": 1
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvdho6ijuao0",
+                            "created": 1694171490976,
+                            "text": "Paired regions",
+                            "layout_left_offset": {
+                                "x": -62,
+                                "y": -18
+                            },
+                            "priority": 2
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdhpra4jq00",
+                                    "created": 1694171614543,
+                                    "text": "- Pair 300 miles away\n- one region updated at a time\n- good for disaster recovery",
+                                    "layout_left_offset": {
+                                        "x": -16,
+                                        "y": -31
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdi43byexs0",
+                            "created": 1694172737874,
+                            "text": "Region types and Service availability",
+                            "layout_left_offset": {
+                                "x": 6,
+                                "y": -19
+                            },
+                            "priority": 3
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdi4dmbe3s0",
+                                    "created": 1694172760268,
+                                    "text": "Recommended region:\n- broad range of service\n- support availability zon\nAlternate region\n- not support AZs",
+                                    "layout_left_offset": {
+                                        "x": -16,
+                                        "y": -6
+                                    }
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvdik8yvzqw0",
+                                    "created": 1694174003971,
+                                    "text": "General Availability: when service is ready\nto use\n- Foundational: immediately or in 12 months in\nrecommended and alternative region\n- Mainstream: above ( may be available in alternate regions)\n- Specialized: recommended or alternate region depending on demand",
+                                    "layout_left_offset": {
+                                        "x": -33.0000024586916,
+                                        "y": -15
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdiqs05gpk0",
+                            "created": 1694174515591,
+                            "text": "Special Region",
+                            "layout_left_offset": {
+                                "x": -96,
+                                "y": -24
+                            },
+                            "priority": 4
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdir043jv40",
+                                    "created": 1694174533244,
+                                    "text": "- to meed compliance or legal reasons"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdirw60z140",
+                            "created": 1694174603018,
+                            "text": "Availability zone",
+                            "expandState": "expand",
+                            "layout_left_offset": {
+                                "x": -53,
+                                "y": -6
+                            },
+                            "priority": 5
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdiry9c23k0",
+                                    "created": 1694174607571,
+                                    "text": "A location of one or more datacenter\n- Datacenter: a building containing hundreds of \nthousands of computers\n- DC in same region are isolated from each other\n- common practice to remain 3 AZs \nto remain availability",
+                                    "layout_left_offset": {
+                                        "x": -75,
+                                        "y": 3
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdj6h0o6vk0",
+                            "created": 1694175745505,
+                            "text": "Az supported Region",
+                            "layout_left_offset": {
+                                "x": -28,
+                                "y": -7
+                            },
+                            "priority": 6
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdj7k6cixk0",
+                                    "created": 1694175830742,
+                                    "text": "- Recommend regions always have\n- Alternate or other region may not",
+                                    "layout_left_offset": {
+                                        "x": 3,
+                                        "y": 6
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvdja26tn1c0",
+                            "created": 1694176026681,
+                            "text": "Availability sets Fault and UPdate Demains",
+                            "priority": 7
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvdjc21saq80",
+                                    "created": 1694176183105,
+                                    "text": "Fault domain\n- a gorup of hardware to avoid\nsingle point of failure in AZ\n\nUpdate domain\n- ensure resources don't go offline\nwhen performing updates, maintenance\n\nAvailability set:\n- Ensure app remain available during planned \nor unplanned maintenance",
+                                    "layout_left_offset": {
+                                        "x": -14,
+                                        "y": -7
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvdiqeq2k0w0",
+                    "created": 1694174486683,
+                    "text": "",
+                    "layout_mind_offset": {
+                        "x": 26,
+                        "y": -613
+                    },
+                    "priority": null
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvdiqldjk940",
+                            "created": 1694174501163,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
             }
         ]
     },
