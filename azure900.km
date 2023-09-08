@@ -1,0 +1,208 @@
+{
+    "root": {
+        "data": {
+            "id": "cvcmpghav4w0",
+            "created": 1694084136625,
+            "text": "Azure-900"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "cvcmr2wqvuo0",
+                    "created": 1694084263813,
+                    "text": "Concepts",
+                    "layout_mind_offset": {
+                        "x": -51,
+                        "y": 0
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvcnfezerq80",
+                            "created": 1694086170836,
+                            "text": "Cloud Computing",
+                            "expandState": "expand"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvcn78y99cw0",
+                                    "created": 1694085530791,
+                                    "text": "Shared Hosting:\n- one machine, hundred of businesses\n- cheap, limited"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvcn5q9lhp40",
+                                    "created": 1694085411754,
+                                    "text": "Virtual private server\n- one machine, single business\n- virtualized into sub-machines"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvcmrhh2h400",
+                                    "created": 1694084295516,
+                                    "text": "Dedicated server"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvcng58go480",
+                            "created": 1694086227979,
+                            "text": "Common cloud services",
+                            "layout_right_offset": {
+                                "x": 3,
+                                "y": -14
+                            }
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvcnghjcbe80",
+                                    "created": 1694086254758,
+                                    "text": "Compute"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvcngk8p98w0",
+                                    "created": 1694086260645,
+                                    "text": "Storage"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvcnglzihuw0",
+                                    "created": 1694086264443,
+                                    "text": "Networking"
+                                },
+                                "children": []
+                            },
+                            {
+                                "data": {
+                                    "id": "cvcngnmlerk0",
+                                    "created": 1694086268015,
+                                    "text": "Database"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvcngfkjl5s0",
+                            "created": 1694086250477,
+                            "text": "Deployment model"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvcnwa7pdvs0",
+                                    "created": 1694087492644,
+                                    "text": " ",
+                                    "expandState": "expand"
+                                },
+                                "children": [
+                                    {
+                                        "data": {
+                                            "id": "cvcnw2i7bgo0",
+                                            "created": 1694087475864,
+                                            "text": "Public : everything built on cloud provider\n- aka cloud-native\nPrivate:\n- build on company's datacenter\nHybrid",
+                                            "layout_right_offset": {
+                                                "x": -23,
+                                                "y": -8
+                                            }
+                                        },
+                                        "children": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvcnw0jmyhs0",
+                            "created": 1694087471597,
+                            "text": "Capex:\n- Server, storage, network, backup, disaster recovery, datacenter cost, personel\nOpex:\n- leasing software vs customizng features, training employees, cloud support, billing",
+                            "layout_right_offset": {
+                                "x": -5,
+                                "y": -4
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "cvcoglp5d340",
+                            "created": 1694089084926,
+                            "text": "High Availability:\n- Load balancer: Distribute traffic to multiple servers\nHigh Scalability\nHigh Elasticity\n- Automatically scale"
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvcnfc32wbk0",
+                    "created": 1694086164527,
+                    "text": "Evolution of compute"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "cvcp841eqkw0",
+                            "created": 1694091240682,
+                            "text": "Dedicated Services"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvcp8db3lk00",
+                                    "created": 1694091260859,
+                                    "text": "- wasted space\n- limited by OS\n- possible conflicts from multiple apps\n- guarantee security"
+                                },
+                                "children": []
+                            }
+                        ]
+                    },
+                    {
+                        "data": {
+                            "id": "cvcp9s7z6ls0",
+                            "created": 1694091371686,
+                            "text": "VMs"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "cvcp9xurcwg0",
+                                    "created": 1694091383948,
+                                    "text": "topic"
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "cvcmrf0w3200",
+                    "created": 1694084290185,
+                    "text": "topic"
+                },
+                "children": []
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

@@ -1,0 +1,47 @@
+{
+    "root": {
+        "data": {
+            "id": "ct5g6uclt1k0",
+            "created": 1686042514661,
+            "text": "sql-practice"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "ct5gtmjnwi00",
+                    "created": 1686044300049,
+                    "text": "Show patient_id, diagnosis from admissions. \nFind patients admitted multiple times for the same diagnosis.\n\nSELECT\n  patient_id,\n  diagnosis\nFROM admissions\nGROUP BY\n  patient_id,\n  diagnosis\nHAVING COUNT(*) > 1;"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "ct5htzbv0zs0",
+                    "created": 1686047148986,
+                    "text": "Count"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "ct5hu4ayskg0",
+                            "created": 1686047159815,
+                            "text": "count(*): count all row\ncount(column): count non-null rows"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "ct5huggk2o80",
+                            "created": 1686047186275,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

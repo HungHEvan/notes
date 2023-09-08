@@ -1,0 +1,89 @@
+{
+    "root": {
+        "data": {
+            "id": "csv4koevzdk0",
+            "created": 1684994145951,
+            "text": "Linq"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "csv4t15aeeg0",
+                    "created": 1684994800582,
+                    "text": "Select within\ncollections"
+                },
+                "children": []
+            },
+            {
+                "data": {
+                    "id": "csv5jym0a7k0",
+                    "created": 1684996910895,
+                    "text": "Order",
+                    "layout_mind_offset": {
+                        "x": 46,
+                        "y": 0
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csv5k4byu480",
+                            "created": 1684996923349,
+                            "text": "order 2 data fields"
+                        },
+                        "children": [
+                            {
+                                "data": {
+                                    "id": "csv5khfsbb40",
+                                    "created": 1684996951878,
+                                    "text": "product.OrderbyDescending(prod =>\nprod.Color).Thenby(prod => prod.Name).\nToList();\n\n- decending: ThenByDescending()",
+                                    "layout_left_offset": {
+                                        "x": 25,
+                                        "y": -105
+                                    }
+                                },
+                                "children": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csv5osazbs80",
+                    "created": 1684997288989,
+                    "text": "Where"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csv5ov0mr9c0",
+                            "created": 1684997294893,
+                            "text": "products.Where(p =>\np.Name.StartsWith(\"S\")).ToList();",
+                            "layout_left_offset": {
+                                "x": -11,
+                                "y": -56
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csv7k2xn3wo0",
+                            "created": 1685002562526,
+                            "text": "Using extension method\n\npublic static IEnumerable<Product> ByColor(this\nIEnumerable<Product> query, stirn color)\n{}",
+                            "layout_left_offset": {
+                                "x": -44,
+                                "y": -12
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}

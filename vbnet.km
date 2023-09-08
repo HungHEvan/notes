@@ -1,0 +1,139 @@
+{
+    "root": {
+        "data": {
+            "id": "csyivev0dtc0",
+            "created": 1685339162573,
+            "text": "VB.Net"
+        },
+        "children": [
+            {
+                "data": {
+                    "id": "csyj622r0ag0",
+                    "created": 1685339996749,
+                    "text": "Using var\nOperators,\nconstants",
+                    "expandState": "expand",
+                    "layout_mind_offset": {
+                        "x": -67,
+                        "y": -3
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csyj6d6mxso0",
+                            "created": 1685340020928,
+                            "text": "Avoid using Object data type cuz\nit takes memory, and slower to use"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csyjax9h20o0",
+                            "created": 1685340378092,
+                            "text": "turn on option strict"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csyjfjjzspc0",
+                            "created": 1685340740074,
+                            "text": "and , or :\n\n_ And\n_ Or",
+                            "expandState": "expand",
+                            "layout_right_offset": {
+                                "x": 48,
+                                "y": 238
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csyje8k624g0",
+                            "created": 1685340637775,
+                            "text": "constants name example:\nDEFAULT_aCTIVE\ndEFAULT_LIST_PRICE\n\nSeems to be like env environment,\nwhich saves unchangable value\n- Class is more popular to use ",
+                            "layout_right_offset": {
+                                "x": 4,
+                                "y": -97
+                            }
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csyjk1umh5s0",
+                            "created": 1685341093355,
+                            "text": "remainder devision: ",
+                            "layout_right_offset": {
+                                "x": 25,
+                                "y": -85
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csyj6bgqlk00",
+                    "created": 1685340017185,
+                    "text": "OOP",
+                    "layout_mind_offset": {
+                        "x": 59,
+                        "y": 0
+                    }
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csyk88k58mw0",
+                            "created": 1685342988699,
+                            "text": "Try to avoid using byRef"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csykfd7y2m80",
+                            "created": 1685343547394,
+                            "text": "Return a function:\n- using return keyword\n- Assign return value to the function name\nex. FuncName = value;",
+                            "layout_left_offset": {
+                                "x": -14,
+                                "y": 8
+                            }
+                        },
+                        "children": []
+                    }
+                ]
+            },
+            {
+                "data": {
+                    "id": "csynkh2cobk0",
+                    "created": 1685352410914,
+                    "text": "If , Looping"
+                },
+                "children": [
+                    {
+                        "data": {
+                            "id": "csynknd0fmo0",
+                            "created": 1685352424619,
+                            "text": "#Region: \nto collapse chosen codes,\nhelp to make cleaner view"
+                        },
+                        "children": []
+                    },
+                    {
+                        "data": {
+                            "id": "csynl28i3ns0",
+                            "created": 1685352456998,
+                            "text": "topic"
+                        },
+                        "children": []
+                    }
+                ]
+            }
+        ]
+    },
+    "template": "default",
+    "theme": "fresh-blue",
+    "version": "1.4.43"
+}
